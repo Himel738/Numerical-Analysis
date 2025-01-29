@@ -12,7 +12,7 @@ int factorial(int n)
 
 double interpolation(vector<vector<double>> &a,double p,int n)
 {
-   double result = a[0][5];
+   double result = a[0][n-1];
    double term = 1.0;
    double term2 = 0.0;
    int j = n - 2;
